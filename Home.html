@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head >
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA Compatible">
+        <title>Student Budgeting website</title>
+        <script>
+            function calculate() {
+                var num1 = parseFloat(document.getElementById('num1').value);
+                var num2 = parseFloat(document.getElementById('num2').value);
+                var operation = document.getElementById('operation').value;
+                var result;
+    
+                switch (operation) {
+                    case '+':
+                        result = num1 + num2;
+                        break;
+                    case '-':
+                        result = num1 - num2;
+                        break;
+                    case '*':
+                        result = num1 * num2;
+                        break;
+                    case '/':
+                        result = num1 / num2;
+                        break;
+                    default:
+                        result = 'Invalid operation';
+                        break;
+                }
+    
+                document.getElementById('result').innerText = 'Result: ' + result;
+            }
+        </script>
+        <link rel="stylesheet" href="CSSFormat/Stylesheet.css">
+    </head>
+    <body>
+        <header >
+            <img id="LogoImage" src="Images/logo2.png" alt="Logo">
+            <h1 style="color:white">$tud€nt Budg£ting</h1>
+
+        </header>
+        <nav>
+            <ul>
+                <li><a class="active" href="Home.html">Home</a></li>
+                <li><a href="Page2.html">Students supports</a></li>
+                <li><a href="Page3.html">Cheaper living</a></li>
+            </ul>
+        </nav>
+        <section style="width:40%;">
+            <p>Many students face financial challenges during their academic journey. With the rising costs of tuition, textbooks, and living expenses, budgeting becomes essential for managing finances effectively. It's crucial for students to develop smart budgeting habits early on to alleviate financial stress and ensure they can focus on their studies without constant worry.<br><br> Setting a realistic budget involves assessing income sources, such as part-time jobs or financial aid, and prioritizing expenses like rent, groceries, and transportation. Additionally, students should explore cost-saving strategies, such as buying used textbooks or cooking meals at home.<br><br> By creating and sticking to a budget, students can better navigate their financial responsibilities and work towards achieving their academic goals.</p>
+            <br><br>
+            <p>The purpose of this website is to assist students with budgeting their money.<br>This page contains a Calculator so that you may do any calculations for any pay or expenses along with a video to the right on how to manage expenses as a Student.<br><br>The second page contains information on  </p>
+
+            
+            <h2 style=" text-decoration: underline;color: aliceblue;">Calculator</h2>
+            <input type="number" id="num1" placeholder="Enter number" />
+            <select id="operation">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input type="number" id="num2" placeholder="Enter number" />
+            <button onclick="calculate()">Calculate</button>
+            <div id="result"></div>
+        </section>
+        <aside >
+            <img id="Image1" src="Images/budgeting.jpg">
+            <!--<iframe width="420" height="345" src="https://youtu.be/MXCvtC0HqLE?si=b0zGiMdLffbaWQMy">
+            </iframe>-->
+        </aside>
+        <footer>
+            <h3>Copyright @ Student Budgeting website</h3>
+        </footer>
+    
+    </body>
+
+</html>
