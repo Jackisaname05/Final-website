@@ -3,6 +3,10 @@
     <head >
         <meta charset="utf-8">
         <meta http-equiv="X-UA Compatible">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Budgeting, students, student, college, university, uni, finances" >
+        <meta name="description" content="A webpage for students about Budgeting their money">
+        <meta name="Author" content="Jack Mc Fadden Dos Santos">
         <title>Student Budgeting website</title>
         <script>
             function calculate() {
@@ -33,11 +37,30 @@
             }
         </script>
         <link rel="stylesheet" href="CSSFormat/Stylesheet.css">
+        <style>
+            body{
+                background-image: url(Images/stockphoto.jpg);
+                background-attachment: fixed;
+                background-size: 100%;
+            }
+            #Disclosure{
+                border-style: solid;
+                border-radius: 4px;
+                border-color: black;
+                padding: 5%;
+                color: aliceblue;
+                display: block;
+                background-color: #5A4FB2;
+                font-size: large;
+                text-align: center;
+                text-decoration: solid underline;
+            }
+        </style>
     </head>
     <body>
         <header >
             <img id="LogoImage" src="Images/logo2.png" alt="Logo">
-            <h1 style="color:white">$tud€nt Budg£ting</h1>
+            <h1 style="border-style: solid;border-radius: 4px;border-color: black;color: aliceblue;text-decoration:solid underline;">$tud€nt Budg£ting</h1>
 
         </header>
         <nav>
@@ -45,12 +68,17 @@
                 <li><a class="active" href="index.html">Home</a></li>
                 <li><a href="page2.html">Students supports</a></li>
                 <li><a href="page3.html">Cheaper living</a></li>
+                <li><a href="page4.html">Accomodation</a></li>
             </ul>
         </nav>
+        <main>
+            <p id="Disclosure">Disclosure: This web page is a student project and is not a real web page</p>
+        </main>
         <section style="width:40%;">
+
             <p>Many students face financial challenges during their academic journey. With the rising costs of tuition, textbooks, and living expenses, budgeting becomes essential for managing finances effectively. It's crucial for students to develop smart budgeting habits early on to alleviate financial stress and ensure they can focus on their studies without constant worry.<br><br> Setting a realistic budget involves assessing income sources, such as part-time jobs or financial aid, and prioritizing expenses like rent, groceries, and transportation. Additionally, students should explore cost-saving strategies, such as buying used textbooks or cooking meals at home.<br><br> By creating and sticking to a budget, students can better navigate their financial responsibilities and work towards achieving their academic goals.</p>
             <br><br>
-            <p>The purpose of this website is to assist students with budgeting their money.<br>This page contains a Calculator so that you may do any calculations for any pay or expenses along with a video to the right on how to manage expenses as a Student.<br><br>The second page contains information on  </p>
+            <p>The purpose of this website is to assist students with budgeting their money.<br>This page contains a Calculator so that you may do any calculations for any pay or expenses along with a video to the right on how to manage expenses as a Student.<br><br>The second page contains information on different ways that students can seek financial aid.<br><br>The third page details how students can cut costs in their everyday living.<br><br>The fourth page then goes over the different types of student accomodation and how students can make the most of their accomodation  </p>
 
             
             <h2 style=" text-decoration: underline;color: aliceblue;">Calculator</h2>
@@ -63,17 +91,18 @@
             </select>
             <input type="number" id="num2" placeholder="Enter number" />
             <button onclick="calculate()">Calculate</button>
-            <div id="result"></div>
+            <div id="result" style="color: aliceblue;"></div>
         </section>
         <aside >
-            <img id="Image1" src="Images/budgeting.jpg">
-            <!--<iframe width="420" height="345" src="https://youtu.be/MXCvtC0HqLE?si=b0zGiMdLffbaWQMy">
-            </iframe>-->
+            <iframe width= 35% height= auto src="https://www.youtube.com/embed/MXCvtC0HqLE?si=JBsP7x_hdQ0ln4RQ" style="margin-left: 15%; margin-top: 7.5%; box-shadow: 10px 10px #5A4FB2;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            <iframe width= 35% height= auto src="https://www.youtube.com/embed/Pau88PAPD7Q?si=N_RA5pQq0MUjgd8e" style="margin-left: 15%; margin-top: 7.5%; box-shadow: 10px 10px #5A4FB2;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+            <iframe width= 35% height= auto src="https://www.youtube.com/embed/xqXwBepxzgI?si=0frDeQzK4bO3SaAT" style="margin-left: 15%; margin-top: 7.5%; box-shadow: 10px 10px #5A4FB2;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
         </aside>
         <footer>
             <h3>Copyright @ Student Budgeting website</h3>
         </footer>
-    
     </body>
-
 </html>

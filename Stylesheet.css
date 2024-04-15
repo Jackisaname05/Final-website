@@ -1,0 +1,91 @@
+body {
+    /*background-image:url(/Images/budgeting.jpg);
+    background-attachment: fixed;
+    background-size:100%;*/
+    background-color: #424242;
+    
+}
+header{
+    top:0;
+    background-color: #5A4FB2;
+    border-style: solid;
+    border: 2px;
+    border-color: black;
+}
+img{
+    width:14%;
+    float:left;
+}
+h1  {
+    
+    background-color: #5A4FB2;
+    color: black;
+    text-align: center;
+    padding:5%
+}
+nav {
+    background-color: grey;
+    color: black;
+    border-style: solid;
+    border: 2px;
+    border-color: black;
+}
+nav ul{
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-color: #5A4FB2;
+}
+li {
+    display: inline;
+    
+}
+li a {
+    float:left;
+    display: block;
+    color:aliceblue;
+    padding:8px;
+    text-decoration: none;
+    
+  }
+li a:hover {
+    background-color: #6b7fdd;
+}
+.active {
+    background-color: 	#663399;
+    color: aliceblue;
+}
+section {
+    float: left;
+    margin-bottom: 10%;
+    
+}
+p{
+    border-style: solid;
+    border-radius: 4px;
+    border-color: black;
+    padding: 7%;
+    color: aliceblue;
+    display: block;
+    background-color: #5A4FB2;
+}
+#Image1 {
+    margin-top: 3%;
+    margin-left: 5%;
+    width:43%;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: black;
+    float:left;
+}
+footer {
+    text-align: center;
+    clear: both;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: black;
+    padding:5px;
+    background-color: #5A4FB2;
+    color:aliceblue;
+}
+
